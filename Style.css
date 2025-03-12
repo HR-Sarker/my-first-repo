@@ -4,3 +4,8 @@ h1{
 h2{
     color: blue;
 }
+p{
+    /* background-color: azure; */
+    color: mediumblue;
+    text-align: justify;
+}
