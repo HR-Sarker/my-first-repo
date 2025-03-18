@@ -1,11 +1,119 @@
-h1{
-    color:red;
-}
-h2{
-    color: blue;
-}
-p{
-    /* background-color: azure; */
-    color: mediumblue;
+body {
     text-align: justify;
 }
+
+table {
+
+    width: 100;
+}
+
+td {
+    text-align: center;
+    border: 10px solid #ddd;
+    /* nth-child(2n+1) {
+background-color: #ddd;
+} */
+}
+
+th {
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+iframe {
+    width: 350;
+    height: 200;
+}
+
+ul {
+    list-style-type: square;
+}
+
+header>h1 {
+    color: black;
+    height: 500px;
+    background-image: url('thumbnail.jpg/free-food-photo101.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.headerone {
+    border: 5px solid red;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.headertwo {
+    border: 6px dotted blue;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.headerthree {
+    border: 8px dashed black;
+    text-align: center;
+    padding: 10px;
+    font-size: 50   px;
+}
+
+.paragrapone {
+
+    font-size: 20px;
+    border: 10px double;
+    border-color: black red green blue;
+    padding: 10px;
+    margin-top: 100px ;
+}
+
+.paragraptwo {
+    font-size: 20px;
+    border: 10px solid;
+    border-color: green blue;
+    padding: 10px;
+    margin: inline start 50%;
+
+}
+
+.paragrapthree {
+    font-size: 20px;
+    border: 10px dotted;
+    border-color: burlywood black brown aquamarine;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+h6 {
+    font-size: 25px;
+}
+
+.spanone {
+    color: chartreuse;
+}
+
+.spantwo { 
+    color: red;
+}
+
+.spanthree {
+    color: blue;
+}
+iframe{
+    min-width: 600px;
+    max: height 600px;;
+}
+li:nth-child(2n+1){
+    color: brown;
+  }
+  a:link{
+    color: green;
+    font-size: 25px;
+  }
+  a:hover{
+    color:black;
+  }
+  
